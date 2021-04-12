@@ -1,0 +1,30 @@
+{
+  "name": "drivet.js",
+  "version": "0.1.0",
+  "description": "Using Drivet's API made easy",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrivetDevelopment/drivet.js.git"
+  },
+  "keywords": [
+    "drivet",
+    "discord",
+    "api",
+    "discord",
+    "bot"
+  ],
+  "author": "EpicJuicy | me@juicy.systems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrivetDevelopment/drivet.js/issues"
+  },
+  "homepage": "https://github.com/DrivetDevelopment/drivet.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}

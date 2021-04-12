@@ -1,0 +1,20 @@
+{
+  "fun": {
+    "eightball": "/fun/8ball",
+    "fml": "/fun/fml",
+    "reverse": "/fun/reverse",
+    "vaporwave": "/fun/vaporwave"
+  },
+  "facts": {
+    "catfact": "/facts/cat",
+    "dogfact": "/facts/dog"
+  },
+  "images": {
+    "cat": "/images/cat",
+    "dog": "/images/dog"
+  },
+  "misc": {
+    "chat": "/misc/chat",
+    "isitup": "/misc/isitup"
+  }
+}
