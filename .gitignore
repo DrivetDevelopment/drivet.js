@@ -1,4 +1,9 @@
+# NPM
 .npm
+
+# Node
 node_modules
 package-lock.json
+
+# Misc
 test

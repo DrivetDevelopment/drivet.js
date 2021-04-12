@@ -1,5 +1,7 @@
-# drivet.js [![npm](https://img.shields.io/npm/v/drivet.js.svg)](https://www.npmjs.com/package/drivet.js)
-Using [Drivet's](https://drivet.xyz) API made easy
+# drivet.js
+Using [Drivet's](https://drivet.xyz) API made easy 
+[![Package Version](https://badgen.net/npm/v/drivet.js)](https://npmjs.com/package/drivet.js) [![TypeScript](https://badgen.net/npm/types/drivet.js)](https://npmjs.com/package/drivet.js)
+
 
 ## Install
 
@@ -26,8 +28,8 @@ yarn add drivet.js
 ### Facts
 | Function | Description | Params | Type |
 | -------- | ----------- | ------ | ---- |
-| `catfact()` | Sends a random cat fact | none | JSON |
-| `dogfact()` | Sends a random dog fact | none | JSON |
+| `catFact()` | Sends a random cat fact | none | JSON |
+| `dogFact()` | Sends a random dog fact | none | JSON |
 
 ### Images
 | Function | Description | Params | Type |
@@ -50,7 +52,7 @@ const { DrivetClient } = require('drivet.js')
 import { DrivetClient } from 'drivet.js';
 const drivet = new DrivetClient();
 
-let dogFact = await drivet.facts.dogfact();
+let dogFact = await drivet.facts.dogFact();
 let reverse = await drivet.facts.reverse({ text: 'Funny Text' });
 
 console.log(dogFact)

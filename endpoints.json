@@ -6,8 +6,8 @@
     "vaporwave": "/fun/vaporwave"
   },
   "facts": {
-    "catfact": "/facts/cat",
-    "dogfact": "/facts/dog"
+    "catFact": "/facts/cat",
+    "dogFact": "/facts/dog"
   },
   "images": {
     "cat": "/images/cat",

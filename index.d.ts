@@ -7,8 +7,8 @@ declare class DrivetClient {
         vaporwave(object: {text: string}):Promise<JSON>;
     }
     facts: {
-        catfact():Promise<JSON>;
-        dogfact():Promise<JSON>;
+        catFact():Promise<JSON>;
+        dogFact():Promise<JSON>;
     }
     images: {
         cat():Promise<JSON>;
