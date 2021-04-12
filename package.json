@@ -1,6 +1,6 @@
 {
   "name": "drivet.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Using Drivet's API made easy",
   "main": "index.js",
   "typings": "index.d.ts",
