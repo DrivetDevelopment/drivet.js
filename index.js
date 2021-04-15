@@ -20,6 +20,7 @@ class DrivetClient {
     this.facts = {};
     this.images = {};
     this.misc = {};
+    this.filters = {}
     let baseURL = 'https://api.drivet.xyz';
     Object.keys(endpoints.fun).forEach(async (endpoint) => {
       this.fun[endpoint] = async function (queryParams = '') {
@@ -45,6 +46,13 @@ class DrivetClient {
     Object.keys(endpoints.misc).forEach(async (endpoint) => {
       this.misc[endpoint] = async function (queryParams = '') {
         let url = new URL(`${baseURL}${endpoints.misc[endpoint]}`);
+        queryParams !== '' ? url.search = new URLSearchParams(queryParams) : '';
+        return await getContent(url.toString());
+      };
+    });
+    Object.keys(endpoints.filters).forEach(async (endpoint) => {
+      this.filters[endpoint] = async function (queryParams = '') {
+        let url = new URL(`${baseURL}${endpoints.filters[endpoint]}`);
         queryParams !== '' ? url.search = new URLSearchParams(queryParams) : '';
         return await getContent(url.toString());
       };

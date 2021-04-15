@@ -5,6 +5,12 @@
     "reverse": "/fun/reverse",
     "vaporwave": "/fun/vaporwave"
   },
+  "filters": {
+    "greyscale": "/filters/greyscale",
+    "invert": "/filters/invert",
+    "pixelate": "/filters/pixelate",
+    "sepia": "/filters/sepia"
+  },
   "facts": {
     "catFact": "/facts/cat",
     "dogFact": "/facts/dog"
