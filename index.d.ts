@@ -22,7 +22,6 @@ declare class DrivetClient {
     }
     misc: {
         chat(object: {message: string, uid: string}):Promise<JSON>;
-        isitup(object: {url: string}):Promise<JSON>;
     }
 }
 

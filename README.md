@@ -17,19 +17,27 @@ yarn add drivet.js
 
 ## All Endpoints
 
-### Fun
-| Function | Description | Params | Type |
-| -------- | ----------- | ------ | ---- |
-| `eightball()` | Sends a random 8ball response | none | JSON |
-| `fml()` | Sends a random fuck-my-life qoute | none | JSON |
-| `reverse()` | Reverse a text | text | JSON |
-| `vaporwave()` | Vaporwave a text | text | JSON |
-
 ### Facts
 | Function | Description | Params | Type |
 | -------- | ----------- | ------ | ---- |
 | `catFact()` | Sends a random cat fact | none | JSON |
 | `dogFact()` | Sends a random dog fact | none | JSON |
+
+### Filters
+| Function | Description | Params | Type |
+| -------- | ----------- | ------ | ---- |
+| `greyscale()` | Turn a image to black and white | `url`, `raw` | JSON or RAW |
+| `invert()` | Turn a image colors to inverted |  `url`, `raw` | JSON or RAW |
+| `pixelate()` | Turn a image to pixelated |  `url`, `raw` | JSON or RAW |
+| `sepia()` | Turn a image to sepia |  `url`, `raw` | JSON or RAW |
+
+### Fun
+| Function | Description | Params | Type |
+| -------- | ----------- | ------ | ---- |
+| `eightball()` | Sends a random 8ball response | none | JSON |
+| `fml()` | Sends a random fuck-my-life qoute | none | JSON |
+| `reverse()` | Reverse a text | `text` | JSON |
+| `vaporwave()` | Vaporwave a text | `text` | JSON |
 
 ### Images
 | Function | Description | Params | Type |
@@ -40,8 +48,7 @@ yarn add drivet.js
 ### Miscellaneous
 | Function | Description | Params | Type |
 | -------- | ----------- | ------ | ---- |
-| `chat()` | Chat with an AI | message, uid | JSON |
-| `isitup()` | Checks if an website is up | url | JSON |
+| `chat()` | Talk with an AI | `message`, `uid` | JSON |
 
 ## Example
 Using Drivet's API is pretty easy.

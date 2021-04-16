@@ -20,7 +20,6 @@
     "dog": "/images/dog"
   },
   "misc": {
-    "chat": "/misc/chat",
-    "isitup": "/misc/isitup"
+    "chat": "/misc/chat"
   }
 }
