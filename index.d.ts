@@ -19,6 +19,7 @@ declare class DrivetClient {
     images: {
         cat():Promise<JSON>;
         dog():Promise<JSON>;
+        bird():Promise<JSON>;
     }
     misc: {
         chat(object: {message: string, uid: string}):Promise<JSON>;

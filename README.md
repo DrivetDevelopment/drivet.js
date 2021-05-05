@@ -44,6 +44,7 @@ yarn add drivet.js
 | -------- | ----------- | ------ | ---- |
 | `cat()` | Sends a random cat picture | none | JSON |
 | `dog()` | Sends a random dog picture | none | JSON |
+| `bird()` | Sends a random bird picture | none | JSON |
 
 ### Miscellaneous
 | Function | Description | Params | Type |

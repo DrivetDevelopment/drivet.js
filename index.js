@@ -1,3 +1,6 @@
+/**
+ * @todo "fix better endpoints reading in 0.1.5"
+ */
 const fetch = require('node-fetch');
 const { URL, URLSearchParams } = require('url');
 

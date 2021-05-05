@@ -17,7 +17,8 @@
   },
   "images": {
     "cat": "/images/cat",
-    "dog": "/images/dog"
+    "dog": "/images/dog",
+    "bird": "/images/bird"
   },
   "misc": {
     "chat": "/misc/chat"
